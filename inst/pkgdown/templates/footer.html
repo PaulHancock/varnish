@@ -1,6 +1,6 @@
 		<footer class="row footer mx-md-3">
 			<hr/>
-			<div class="col-md-6">
+			<div class="col-md-4">
         {{# translate.ThisLessonCoC }}<p>{{& translate.ThisLessonCoC }}</p>{{/ translate.ThisLessonCoC }}
         {{#yaml}}
         <p>
@@ -29,7 +29,11 @@
         {{/yaml}}
         | <a href="mailto:{{#yaml}}{{contact}}{{/yaml}}">{{ translate.Contact }}</a> | <a href="https://carpentries.org/about/">{{ translate.About }}</a></p>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-4" align="center">
+  			<a title="GDPR-compliant Web Analytics" href="https://clicky.com/101447658"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+      		<script async data-id="101447658" src="//static.getclicky.com/js"></script>
+		</div>
+		<div class="col-md-4">
         {{#yaml}}{{#license}}
         <p>{{& translate.MaterialsLicensedUnder }}</p>
         {{/license}}{{/yaml}}
